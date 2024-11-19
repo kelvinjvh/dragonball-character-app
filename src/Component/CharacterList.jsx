@@ -21,7 +21,7 @@ export default function CharacterList() {
             onClick={() => getDetailsCharacter(character.id)}
             className="characters_cards-btn"
           >
-            Vie Details
+            View Details
           </button>
           
         </div>

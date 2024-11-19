@@ -12,6 +12,8 @@ export const ContextDataProvider = (props) => {
   const [error,setError]=useState("");
   const [showloadin,setShowLoading]=useState(false)
   //https://dragonball-api.com/api/characters?page=4&limit=10
+
+
   useEffect(() => {
     GetDatacharacter("");
   }, []);
