@@ -1,0 +1,27 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+    gap: 1em;
+    padding: 1em;
+}
+.characters_cards{
+    outline: 1px solid #4a4a4a;
+    border-radius: 3px;
+    width: 100%;
+    margin: 0 auto;
+}
+.characters_cards-img{
+    height: 250px;
+    width: 200px;
+    object-fit: contain;
+}
+.characters_cards-btn{
+    outline: 1px solid #F4ED00;
+    background-color: transparent;
+    margin-bottom: 1em;
+    border-radius: 3px;
+}
+.characters_cards-btn:hover{
+    background-color: #F4ED00;
+    color: #111;
+}

@@ -1,0 +1,15 @@
+.container_pagination{
+    display: grid;
+    place-items: center;
+    width: 100%;
+   margin-bottom: 2em;
+}
+.box_button{
+    display: flex;
+    justify-content: space-between;
+
+}
+.box_button span{
+    font-size: 2em;
+    cursor: pointer;
+}
