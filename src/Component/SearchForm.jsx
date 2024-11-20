@@ -20,7 +20,7 @@ const SearchForm = () => {
   return (
     <header className="header_search">
       <div className="header_logo">
-        <img onClick={()=>GetDatacharacter("")} src="./public/logo.png" alt="" className="header_logo-img" />
+        <img onClick={()=>GetDatacharacter("")} src="./logo.png" alt="" className="header_logo-img" />
       </div>
       <form className="form" onSubmit={handleSubmit}>
         <div className="form-control">

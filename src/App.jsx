@@ -14,12 +14,17 @@ function App() {
     <div id="App">
       <SearchForm />
       <CharacterList />
-       {characterslist.length === 0 && (
+      {characterslist.length === 0 && (
         <div>
           <h1>Datos No Encontrados</h1>
-          <button style={{backgroundColor:"#E88D01"}} onClick={() => GetDatacharacter("")}>Aceptar!</button>
+          <button
+            style={{ backgroundColor: "#E88D01" }}
+            onClick={() => GetDatacharacter("")}
+          >
+            Aceptar!
+          </button>
         </div>
-      )} 
+      )}
       {characterslist.length > 1 && <Pagination />}
       {showcomponent && <DetailsCharacter />}
     </div>

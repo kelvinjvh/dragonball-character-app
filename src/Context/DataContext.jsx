@@ -11,8 +11,6 @@ export const ContextDataProvider = (props) => {
   const [pagination, setPagination] = useState(1);
   const [error,setError]=useState("");
   const [showloadin,setShowLoading]=useState(false)
-  //https://dragonball-api.com/api/characters?page=4&limit=10
-
 
   useEffect(() => {
     GetDatacharacter("");
